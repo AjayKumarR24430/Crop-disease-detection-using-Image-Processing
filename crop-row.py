@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 #load image using cv's imread(nameoffile)
-img1 = cv2.imread("C:/Users/HP/Desktop/potatoblight.jpg")
+img1 = cv2.imread("potatoblight.jpg")
 #split the image into blue, green, and red channels
 b,g,r = cv2.split(img1) 
 #here we 'amplify' the color green to stand out, without red/blue
